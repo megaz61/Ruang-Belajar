@@ -237,6 +237,7 @@ Edit `config/filesystems.php` untuk mengatur penyimpanan file:
 # Run all tests
 php artisan test
 
+```
 
 ## Note
 
