@@ -1,66 +1,294 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Ruang Belajar - Platform Pembelajaran Digital
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+    <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+    <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
 </p>
 
-## About Laravel
+<p align="center">
+    <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
+    <img src="https://img.shields.io/badge/Education-Platform-blue?style=for-the-badge" alt="Education">
+    <img src="https://img.shields.io/badge/Internship-Project-orange?style=for-the-badge" alt="Internship">
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Tentang Ruang Belajar
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+**Ruang Belajar** adalah platform pembelajaran digital yang dikembangkan selama masa magang di **Dinas Pendidikan & Kebudayaan Pasuruan**. Website ini dirancang untuk mendukung proses pembelajaran digital dengan menyediakan akses mudah terhadap materi pendidikan di berbagai tingkat.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Platform ini memungkinkan guru untuk mengunggah materi pembelajaran dan siswa untuk mengakses materi tersebut secara online, menciptakan lingkungan pembelajaran yang lebih fleksibel dan terjangkau.
 
-## Learning Laravel
+### 🎯 Tujuan Proyek
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Mendukung transformasi digital pendidikan di Kabupaten Pasuruan
+- Menyediakan akses mudah terhadap materi pembelajaran
+- Memfasilitasi pembelajaran jarak jauh
+- Meningkatkan efektivitas proses belajar mengajar
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### ✨ Fitur Utama
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+#### 📚 Manajemen Materi
+- **Upload Materi**: Guru dapat mengunggah berbagai jenis materi pembelajaran
+- **Kategori Mata Pelajaran**: Pengorganisasian materi berdasarkan mata pelajaran
+- **Tingkat Kelas**: Klasifikasi materi sesuai dengan tingkat pendidikan
+- **Format Beragam**: Mendukung dokumen PDF, video, gambar, dan presentasi
 
-## Laravel Sponsors
+#### 👥 Manajemen Pengguna
+- **Multi-Role System**: Pembagian peran (Admin, Guru, Siswa)
+- **Autentikasi Aman**: Sistem login yang aman dengan validasi
+- **Profile Management**: Pengelolaan profil pengguna
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+#### 🔍 Pencarian & Navigasi
+- **Pencarian Cerdas**: Pencarian materi berdasarkan judul, mata pelajaran, atau tingkat
+- **Filter Kategori**: Filter berdasarkan mata pelajaran dan tingkat kelas
+- **Navigasi Intuitif**: Antarmuka yang mudah dipahami dan digunakan
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### 🛠️ Teknologi yang Digunakan
 
-## Contributing
+**Backend:**
+- Laravel 10.x (PHP Framework)
+- MySQL (Database)
+- Laravel Sanctum (Authentication)
+- Laravel Storage (File Management)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+**Frontend:**
+- HTML5 & CSS
+- JavaScript (ES6+)
+- Bootstrap 5
+- Font Awesome Icons
 
-## Code of Conduct
+**Tools & Services:**
+- Composer (PHP Package Manager)
+- NPM (Node Package Manager)
+- Git (Version Control)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🚀 Instalasi
 
-## Security Vulnerabilities
+### Persyaratan Sistem
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- PHP >= 8.1
+- Composer
+- MySQL >= 8.0
+- Node.js & NPM
+- Git
+- Apache/Nginx Web Server
 
-## License
+### Langkah Instalasi
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/username/RuangBelajar.git
+   cd RuangBelajar
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   # Install PHP dependencies
+   composer install
+   
+   # Install JavaScript dependencies
+   npm install
+   ```
+
+3. **Environment Setup**
+   ```bash
+   # Copy environment file
+   cp .env.example .env
+   
+   # Generate application key
+   php artisan key:generate
+   ```
+
+4. **Database Configuration**
+   
+   Edit file `.env`:
+   ```env
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=rb
+   DB_USERNAME=your_username
+   DB_PASSWORD=your_password
+   ```
+
+5. **Database Setup**
+   ```bash
+   # Create database
+   mysql -u root -p -e "CREATE DATABASE ruang_belajar;"
+   
+   # Run migrations
+   php artisan migrate
+   
+   # Seed database with sample data
+   php artisan db:seed
+   ```
+
+6. **Storage Setup**
+   ```bash
+   # Create storage symlink
+   php artisan storage:link
+   
+   # Set permissions (Linux/Mac)
+   chmod -R 775 storage bootstrap/cache
+   ```
+
+7. **Build Assets**
+   ```bash
+   # Build assets for production
+   npm run build
+   
+   # Or for development
+   npm run dev
+   ```
+
+8. **Run Application**
+   ```bash
+   # Start development server
+   php artisan serve
+   ```
+
+   Akses aplikasi di `http://localhost:8000`
+
+## 📋 Penggunaan
+
+### Untuk Admin
+1. **Dashboard Admin**: Kelola seluruh sistem dan pengguna
+2. **Manajemen Mata Pelajaran**: Tambah, edit, hapus mata pelajaran
+3. **Manajemen Tingkat Kelas**: Atur tingkat kelas yang tersedia
+4. **Monitoring**: Pantau aktivitas dan statistik penggunaan
+
+### Untuk Guru
+1. **Upload Materi**: Unggah materi pembelajaran dengan mudah
+2. **Kelola Materi**: Edit, hapus, atau update materi yang sudah ada
+3. **Kategorisasi**: Atur materi berdasarkan mata pelajaran dan tingkat
+
+### Untuk Siswa
+1. **Jelajahi Materi**: Cari dan akses materi berdasarkan mata pelajaran
+2. **Filter Konten**: Filter materi berdasarkan tingkat kelas
+
+## 📁 Struktur Proyek
+
+```
+RuangBelajar/
+├── app/
+│   ├── Http/Controllers/       # Controllers
+│   ├── Models/                # Eloquent Models
+│   ├── Policies/              # Authorization Policies
+│   └── Services/              # Business Logic Services
+├── database/
+│   ├── migrations/            # Database Migrations
+│   ├── seeders/              # Database Seeders
+│   └── factories/            # Model Factories
+├── public/
+│   ├── akun/                 # User account related assets
+│   ├── assets/               # Static assets (CSS, JS, images)
+│   ├── css/                  # Stylesheets
+│   ├── dist/                 # Distribution files
+│   ├── FotoProfile/          # Profile photos storage
+│   ├── img/                  # Images and graphics
+│   ├── js/                   # JavaScript files
+│   ├── laraview/             # Laravel view assets
+│   ├── login/                # Login page assets
+│   ├── materi/               # Learning materials storage
+│   ├── scss/                 # SCSS source files
+│   ├── thumbnail/            # Thumbnail images
+│   ├── vendor/               # Third-party libraries
+│   ├── .htaccess             # Apache configuration
+│   ├── abc.jpg               # Sample image
+│   ├── avatar.png            # Default avatar
+│   ├── favicon.ico           # Website favicon
+│   ├── index.php             # Entry point
+│   ├── materi.css            # Material-specific styles
+│   ├── robots.txt            # Search engine instructions
+│   └── tes.jpg               # Test image
+├── resources/
+│   ├── views/                # Blade Templates
+├── routes/
+│   ├── web.php               # Web Routes
+└── storage/
+    └── app/public/           # File Storage
+```
+
+## 🔧 Konfigurasi
+
+### File Upload Configuration
+
+Edit `config/filesystems.php` untuk mengatur penyimpanan file:
+
+```php
+'disks' => [
+    'public' => [
+        'driver' => 'local',
+        'root' => storage_path('app/public'),
+        'url' => env('APP_URL').'/storage',
+        'visibility' => 'public',
+    ],
+],
+```
+
+### Mail Configuration
+
+Untuk fitur notifikasi, konfigurasi email di `.env`:
+
+```env
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=your-email@gmail.com
+MAIL_PASSWORD=your-app-password
+MAIL_ENCRYPTION=tls
+```
+
+## 🧪 Testing
+
+```bash
+# Run all tests
+php artisan test
+
+
+## 🚀 Deployment
+
+### Production Setup
+
+1. **Environment Production**
+   ```bash
+   APP_ENV=production
+   APP_DEBUG=false
+   APP_URL=https://your-domain.com
+   ```
+
+
+## 🤝 Kontribusi
+
+Proyek ini dikembangkan sebagai bagian dari program magang di Dinas Pendidikan & Kebudayaan Pasuruan. Kontribusi dan saran untuk pengembangan lebih lanjut sangat diterima.
+
+
+## 📄 Lisensi
+
+Proyek ini dikembangkan untuk kepentingan pendidikan dan dapat digunakan sebagai referensi pengembangan platform pembelajaran digital.
+
+
+## 🙏 Acknowledgments
+
+- **Laravel Framework** - Framework PHP yang powerful
+- **Bootstrap** - Framework CSS untuk UI yang responsif
+- **Font Awesome** - Icon library yang komprehensif
+- **MySQL** - Database management system
+
+## 📞 Kontak
+
+Untuk pertanyaan atau saran terkait proyek ini:
+
+- **Email**: [egawijaya355@gmail.com]
+
+---
+
+
+---
+
+⭐ **Jika proyek ini bermanfaat, jangan lupa berikan star pada repository ini!**
