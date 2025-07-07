@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card-img-top {
+    border-radius: 20px;
+    padding: 10px;
+    object-fit: cover; /* Menyamakan ukuran gambar */
+    width: 100%; /* Menyamakan lebar gambar */
+    height: 200px; /* Menyamakan tinggi gambar, sesuaikan dengan kebutuhan Anda */
+}
+
+
+.card{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+}
+
+.card-body{
+    border-radius: 20px;
+}
+.btn-primary {
+    border-radius: 10px;
+    float: right;
+    /* buat button di sebelah kanan */
+}
+.card-title{
+    color: rgb(rgb(0, 91, 228));
+}

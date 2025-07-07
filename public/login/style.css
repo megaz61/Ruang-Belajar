@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+:root{
+    --light-blue:#00b4d8;
+    --blue:#0077b6;
+    --dark-blue:#03045e;
+}
+
+body{
+    background: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 5%;
+  }
+
+form{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Buat dua kolom */
+  grid-gap: 10px; /* Tambahkan gap untuk memberi jarak antar kolom */
+  background-color: white;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    margin: 20px 30px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+form h2{
+    color: var(--light-blue);
+    font-weight: 300;
+}
+
+/* OPTIONS SECTION */
+
+.options{
+    display: flex;
+    margin: 1rem 0;
+}
+
+input[type="radio"]{
+    -webkit-appearance: none;
+}
+
+label{
+    position: relative;
+    height: 200px;
+    width: 180px;
+    border: 1px solid var(--light-blue);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+label .icon__select{
+    font-size: 40px;
+    color: var(--dark-blue);
+    border-bottom: 2px solid var(--dark-blue);
+    padding: 0.5rem 1rem;
+    margin-bottom: 10px;
+}
+
+.selected{
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    background-color: var(--blue);
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+input[type="radio"]:checked + label{
+    background-color: var(--light-blue);
+    color: white;
+}
+
+input[type="radio"]:checked + label .selected{
+    display: block;
+}
+
+/* MESSAGE SECTION */
+
+/* it will be generated with JavaScript */
+.message__selection{
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+    color: #7d8597;
+    margin-bottom: 1rem;
+}
+
+/* nip AND PASSWORD */
+
+.nip, .username,.nama, .nomor,
+.password{
+    margin: 1rem;
+    width: 90%;
+    height: 60px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+}
+
+.nip input, .username input, .nama input, .nomor input,
+.password input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+
+.nip:focus-within, .username:focus-within, .nama:focus-within, .nomor:focus-within,
+.password:focus-within{
+    border: 1px solid var(--blue);
+}
+
+.nip:focus-within .field__name, .username:focus-within .field__name, .nama:focus-within .field__name, .nomor:focus-within .field__name,
+.password:focus-within .field__name{
+    display: block;
+}
+
+.nip .icon, .username .icon, .nama .icon, .nomor .icon,
+.password .icon{
+    position: absolute;
+    top:50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #ddd;
+    font-size: 18px;
+}
+
+.nip .field__name, .username .field__name, .nama .field__name, .nomor .field__name,
+.password .field__name{
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-size: 10px;
+    background-color: var(--blue);
+    color: white;
+    padding: 3px 6px;
+    border-radius: 3px;
+    display: none;
+}
+
+.password .forgot{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 15px;
+    text-decoration: none;
+    color: var(--light-blue);
+}
+
+.nip__alert,.username__alert, .nama__alert, .nomor__alert,
+.password__alert{
+    position: absolute;
+    bottom:-20px;
+    color: salmon;
+    font-size: 12px;
+    display: none;
+}
+
+/* BOTTOM FORM */
+
+.bottom{
+    margin-top: 1rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.no__acc {
+    text-align: center;
+  }
+
+
+.bottom span{
+    color: #7d8597;
+}
+
+.bottom a{
+    text-decoration: none;
+    color: var(--light-blue);
+}
+
+.bottom button{
+    border: none;
+    padding: 10px 25px;
+    background-color: var(--light-blue);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.bottom button:active{
+    transform: scale(0.98);
+}
