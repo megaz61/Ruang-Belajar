@@ -230,18 +230,6 @@ Edit `config/filesystems.php` untuk mengatur penyimpanan file:
 ],
 ```
 
-### Mail Configuration
-
-Untuk fitur notifikasi, konfigurasi email di `.env`:
-
-```env
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.gmail.com
-MAIL_PORT=587
-MAIL_USERNAME=your-email@gmail.com
-MAIL_PASSWORD=your-app-password
-MAIL_ENCRYPTION=tls
-```
 
 ## 🧪 Testing
 
