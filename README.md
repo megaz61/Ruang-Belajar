@@ -174,43 +174,14 @@ Platform ini memungkinkan guru untuk mengunggah materi pembelajaran dan siswa un
 
 ```
 RuangBelajar/
-├── app/
-│   ├── Http/Controllers/       # Controllers
-│   ├── Models/                # Eloquent Models
-│   ├── Policies/              # Authorization Policies
-│   └── Services/              # Business Logic Services
-├── database/
-│   ├── migrations/            # Database Migrations
-│   ├── seeders/              # Database Seeders
-│   └── factories/            # Model Factories
-├── public/
-│   ├── akun/                 # User account related assets
-│   ├── assets/               # Static assets (CSS, JS, images)
-│   ├── css/                  # Stylesheets
-│   ├── dist/                 # Distribution files
-│   ├── FotoProfile/          # Profile photos storage
-│   ├── img/                  # Images and graphics
-│   ├── js/                   # JavaScript files
-│   ├── laraview/             # Laravel view assets
-│   ├── login/                # Login page assets
-│   ├── materi/               # Learning materials storage
-│   ├── scss/                 # SCSS source files
-│   ├── thumbnail/            # Thumbnail images
-│   ├── vendor/               # Third-party libraries
-│   ├── .htaccess             # Apache configuration
-│   ├── abc.jpg               # Sample image
-│   ├── avatar.png            # Default avatar
-│   ├── favicon.ico           # Website favicon
-│   ├── index.php             # Entry point
-│   ├── materi.css            # Material-specific styles
-│   ├── robots.txt            # Search engine instructions
-│   └── tes.jpg               # Test image
-├── resources/
-│   ├── views/                # Blade Templates
-├── routes/
-│   ├── web.php               # Web Routes
-└── storage/
-    └── app/public/           # File Storage
+├── app/                 # Aplikasi Laravel
+├── database/           # Migrasi dan seeder
+├── public/             # Assets publik, CSS, JS
+├── resources/          # Views
+├── routes/             # Routing aplikasi
+├── storage/            # File storage
+├── tests/              # Unit tests
+└── vendor/             # Dependencies
 ```
 
 ## 🔧 Konfigurasi
