@@ -250,14 +250,10 @@ php artisan test
    ```
 
 
-## 🤝 Kontribusi
+## Note
 
 Proyek ini dikembangkan sebagai bagian dari program magang di Dinas Pendidikan & Kebudayaan Pasuruan. Kontribusi dan saran untuk pengembangan lebih lanjut sangat diterima.
 
-
-## 📄 Lisensi
-
-Proyek ini dikembangkan untuk kepentingan pendidikan dan dapat digunakan sebagai referensi pengembangan platform pembelajaran digital.
 
 
 ## 🙏 Acknowledgments
@@ -272,9 +268,6 @@ Proyek ini dikembangkan untuk kepentingan pendidikan dan dapat digunakan sebagai
 Untuk pertanyaan atau saran terkait proyek ini:
 
 - **Email**: [egawijaya355@gmail.com]
-
----
-
 
 ---
 
