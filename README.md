@@ -94,16 +94,7 @@ Platform ini memungkinkan guru untuk mengunggah materi pembelajaran dan siswa un
    npm install
    ```
 
-3. **Environment Setup**
-   ```bash
-   # Copy environment file
-   cp .env.example .env
-   
-   # Generate application key
-   php artisan key:generate
-   ```
-
-4. **Database Configuration**
+3. **Database Configuration**
    
    Edit file `.env`:
    ```env
@@ -115,10 +106,10 @@ Platform ini memungkinkan guru untuk mengunggah materi pembelajaran dan siswa un
    DB_PASSWORD=your_password
    ```
 
-5. **Database Setup**
+4. **Database Setup**
    ```bash
    # Create database
-   mysql -u root -p -e "CREATE DATABASE ruang_belajar;"
+   mysql -u root -p -e "CREATE DATABASE rb;"
    
    # Run migrations
    php artisan migrate
@@ -127,7 +118,7 @@ Platform ini memungkinkan guru untuk mengunggah materi pembelajaran dan siswa un
    php artisan db:seed
    ```
 
-6. **Storage Setup**
+5. **Storage Setup**
    ```bash
    # Create storage symlink
    php artisan storage:link
@@ -136,7 +127,7 @@ Platform ini memungkinkan guru untuk mengunggah materi pembelajaran dan siswa un
    chmod -R 775 storage bootstrap/cache
    ```
 
-7. **Build Assets**
+6. **Build Assets**
    ```bash
    # Build assets for production
    npm run build
@@ -145,7 +136,7 @@ Platform ini memungkinkan guru untuk mengunggah materi pembelajaran dan siswa un
    npm run dev
    ```
 
-8. **Run Application**
+7. **Run Application**
    ```bash
    # Start development server
    php artisan serve
