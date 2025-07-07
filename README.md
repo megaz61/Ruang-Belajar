@@ -11,7 +11,6 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
     <img src="https://img.shields.io/badge/Education-Platform-blue?style=for-the-badge" alt="Education">
     <img src="https://img.shields.io/badge/Internship-Project-orange?style=for-the-badge" alt="Internship">
 </p>
