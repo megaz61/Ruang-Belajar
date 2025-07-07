@@ -238,18 +238,6 @@ Edit `config/filesystems.php` untuk mengatur penyimpanan file:
 php artisan test
 
 
-## 🚀 Deployment
-
-### Production Setup
-
-1. **Environment Production**
-   ```bash
-   APP_ENV=production
-   APP_DEBUG=false
-   APP_URL=https://your-domain.com
-   ```
-
-
 ## Note
 
 Proyek ini dikembangkan sebagai bagian dari program magang di Dinas Pendidikan & Kebudayaan Pasuruan. Kontribusi dan saran untuk pengembangan lebih lanjut sangat diterima.
