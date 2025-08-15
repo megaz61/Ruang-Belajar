@@ -15,6 +15,11 @@
     <img src="https://img.shields.io/badge/Internship-Project-orange?style=for-the-badge" alt="Internship">
 </p>
 
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1JOx0jWNZ-fD0rNC86E6Gr3Oqg2MaNbzR" alt="Tampilan Beranda Ruang Belajar" width="600"/>
+</p>
+
+
 ## Tentang Ruang Belajar
 
 **Ruang Belajar** adalah platform pembelajaran digital yang dikembangkan selama masa magang di **Dinas Pendidikan & Kebudayaan Pasuruan**. Website ini dirancang untuk mendukung proses pembelajaran digital dengan menyediakan akses mudah terhadap materi pendidikan di berbagai tingkat.
