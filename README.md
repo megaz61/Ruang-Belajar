@@ -94,10 +94,6 @@ Platform ini memungkinkan guru untuk mengunggah materi pembelajaran dan siswa un
    ```bash
    # Install PHP dependencies
    composer install
-   
-   # Install JavaScript dependencies
-   npm install
-   ```
 
 3. **Database Configuration**
    
