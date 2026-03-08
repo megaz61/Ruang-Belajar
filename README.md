@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1JOx0jWNZ-fD0rNC86E6Gr3Oqg2MaNbzR" alt="Tampilan Beranda Ruang Belajar" width="600"/>
+    <img src="https://drive.google.com/uc?export=view&id=1o3PzQEaAO3AI2dS10Sg2j4uDQNQrdyws" alt="Tampilan Beranda Ruang Belajar" width="600"/>
 </p>
 
 
